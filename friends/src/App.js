@@ -24,10 +24,10 @@ class App extends Component {
 
 render() {
   return (
-    <div className = 'App'>
+    <div className = "App">
       <FriendsList friends = {this.state.friends}/>
     </div>
   );
-}
+};
 
 export default App;
